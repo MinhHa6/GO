@@ -16,4 +16,7 @@ func main() {
 	)
 	a2, a3, a4 = 20, "Hello", 3.4
 	fmt.Println(a2, a3, a4)
+	//khai bao
+	Ha := "Helloo"
+	fmt.Println(Ha)
 }
