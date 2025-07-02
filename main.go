@@ -16,7 +16,10 @@ func main() {
 	)
 	a2, a3, a4 = 20, "Hello", 3.4
 	fmt.Println(a2, a3, a4)
-	//khai bao
+	//khai bao ngan
 	Ha := "Helloo"
+	// khai bao hang so
 	fmt.Println(Ha)
+	const pi = 3.14
+
 }
