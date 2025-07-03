@@ -30,5 +30,8 @@ func main() {
 	} else {
 		fmt.Println("Bạn chưa đủ tuổi")
 	}
-
+	// for
+	for i := 0; i < 5; i++ {
+		fmt.Println("i =", i)
+	}
 }
