@@ -21,5 +21,14 @@ func main() {
 	// khai bao hang so
 	fmt.Println(Ha)
 	const pi = 3.14
+	// if else
+	var age int
+	fmt.Println("Nhap tuoi cua ban:")
+	fmt.Scan(&age)
+	if age >= 18 {
+		fmt.Println("Bạn đã đủ tuổi")
+	} else {
+		fmt.Println("Bạn chưa đủ tuổi")
+	}
 
 }
