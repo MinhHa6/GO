@@ -39,4 +39,13 @@ func main() {
 	{
 		fmt.Print("i=", n)
 	}
+	// swich
+	switch day := 3; day {
+	case 1:
+		fmt.Println("Thứ Hai")
+	case 2:
+		fmt.Println("Thứ Ba")
+	default:
+		fmt.Println("Một ngày nào đó")
+	}
 }
