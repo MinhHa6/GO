@@ -34,4 +34,9 @@ func main() {
 	for i := 0; i < 5; i++ {
 		fmt.Println("i =", i)
 	}
+	// for range
+	n := []int{1, 2, 4, 5, 76, 8} // slice kiểu []int	for i,v:=range n
+	{
+		fmt.Print("i=", n)
+	}
 }
