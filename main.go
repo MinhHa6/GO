@@ -49,4 +49,5 @@ func main() {
 		fmt.Println("Một ngày nào đó")
 	}
 	// while do while
+	//go
 }
