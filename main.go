@@ -53,7 +53,13 @@ func main() {
 	//  khai bao mang
 	var arr1 = [3]int{1, 2, 3}
 	fmt.Println("arr1=", arr1[2])
-
+	// thay doi gia tri mang
 	arr1[0] = 10
 	fmt.Println("arr1=", arr1[0])
+	//khoi tao mang
+	arr2 := [3]int{}
+	arr3 := [3]float32{1, 2, 3}
+	fmt.Print("arr2=", arr2)
+	fmt.Print("arr3=", arr3)
+
 }
