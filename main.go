@@ -62,8 +62,13 @@ func main() {
 	fmt.Print("arr2=", arr2)
 	fmt.Print("arr3=", arr3)
 	// chi tao phan tu cu the
-	arr4 := []int{1: 10, 2: 30}
+	arr4 := [3]int{1: 10, 2: 30}
 	fmt.Print("arr3=", arr4)
 	// do dai phan tu cua mang
 	fmt.Println(len(arr4))
+	// go slices
+	slices1 := []int{1, 2, 3, 4, 5}
+	fmt.Printf("slices=%v \n", slices1)
+	fmt.Println("length of slices1 =", len(slices1))
+	fmt.Println("cap slices1=", cap(slices1))
 }
