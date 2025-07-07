@@ -52,5 +52,8 @@ func main() {
 	//go
 	//  khai bao mang
 	var arr1 = [3]int{1, 2, 3}
-	fmt.Print("arr1", arr1[2])
+	fmt.Println("arr1=", arr1[2])
+
+	arr1[0] = 10
+	fmt.Println("arr1=", arr1[0])
 }
