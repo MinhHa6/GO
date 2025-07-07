@@ -50,4 +50,7 @@ func main() {
 	}
 	// while do while
 	//go
+	//  khai bao mang
+	var arr1 = [3]int{1, 2, 3}
+	fmt.Print("arr1", arr1[2])
 }
