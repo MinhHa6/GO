@@ -20,7 +20,7 @@ func main() {
 	Ha := "Helloo"
 	// khai bao hang so
 	fmt.Println(Ha)
-	const pi = 3.14
+	//const pi = 3.14
 	// if else
 	var age int
 	fmt.Println("Nhap tuoi cua ban:")
@@ -61,5 +61,9 @@ func main() {
 	arr3 := [3]float32{1, 2, 3}
 	fmt.Print("arr2=", arr2)
 	fmt.Print("arr3=", arr3)
-
+	// chi tao phan tu cu the
+	arr4 := []int{1: 10, 2: 30}
+	fmt.Print("arr3=", arr4)
+	// do dai phan tu cua mang
+	fmt.Println(len(arr4))
 }
