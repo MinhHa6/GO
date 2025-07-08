@@ -103,4 +103,5 @@ func main() {
 	fmt.Printf("myslice1 = %v\n", myslice11)
 	fmt.Printf("length = %d\n", len(myslice11))
 	fmt.Printf("capacity = %d\n", cap(myslice11))
+	//
 }
