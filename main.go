@@ -88,4 +88,9 @@ func main() {
 	fmt.Printf("myslice2 = %v\n", myslice2)
 	fmt.Printf("length = %d\n", len(myslice2))
 	fmt.Printf("capacity = %d\n", cap(myslice2))
+	// sua doi slices
+	prices := []int{10, 20, 30}
+	prices[2] = 50
+	fmt.Println(prices[0])
+	fmt.Println(prices[2])
 }
