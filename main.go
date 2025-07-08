@@ -71,4 +71,10 @@ func main() {
 	fmt.Printf("slices=%v \n", slices1)
 	fmt.Println("length of slices1 =", len(slices1))
 	fmt.Println("cap slices1=", cap(slices1))
+	// tao lat cat trong mang
+	arr65 := [6]int{101, 112, 122, 132, 142, 152}
+	myslicess := arr65[2:4]
+	fmt.Printf("myslice = %v\n", myslicess)
+	fmt.Printf("length = %d\n", len(myslicess))
+	fmt.Printf("capacity = %d\n", cap(myslicess))
 }
