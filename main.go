@@ -93,4 +93,14 @@ func main() {
 	prices[2] = 50
 	fmt.Println(prices[0])
 	fmt.Println(prices[2])
+	// them phan tu vao slices
+	myslice11 := []int{1, 2, 3, 4, 5, 6}
+	fmt.Printf("myslice1 = %v\n", myslice11)
+	fmt.Printf("length = %d\n", len(myslice11))
+	fmt.Printf("capacity = %d\n", cap(myslice11))
+
+	myslice11 = append(myslice11, 20, 21)
+	fmt.Printf("myslice1 = %v\n", myslice11)
+	fmt.Printf("length = %d\n", len(myslice11))
+	fmt.Printf("capacity = %d\n", cap(myslice11))
 }
