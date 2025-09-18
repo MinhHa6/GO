@@ -103,5 +103,13 @@ func main() {
 	fmt.Printf("myslice1 = %v\n", myslice11)
 	fmt.Printf("length = %d\n", len(myslice11))
 	fmt.Printf("capacity = %d\n", cap(myslice11))
-	//
+	//toan tu go
+	var e = 15 + 25
+	fmt.Print(e)
+	var (
+		sum  = 200 + 100
+		sum1 = sum + 50
+		sum2 = sum1 + 100
+	)
+	fmt.Print("Tong  sum2=", sum2)
 }
